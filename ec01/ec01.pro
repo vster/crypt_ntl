@@ -10,8 +10,5 @@ SOURCES += \
 HEADERS += \
     convhex.h
 
-INCLUDEPATH += \
-    /usr/local/include
-
 LIBS += \
     -L/usr/local/lib -lntl

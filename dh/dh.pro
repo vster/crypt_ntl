@@ -6,8 +6,5 @@ CONFIG -= qt
 SOURCES += \
     dh.cpp
 
-INCLUDEPATH += \
-    /usr/local/include
-
 LIBS += \
     -L/usr/local/lib -lntl -lgmp
