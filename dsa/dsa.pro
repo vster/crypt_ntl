@@ -7,4 +7,4 @@ SOURCES += \
     dsa.cpp
 
 LIBS += \
-    -L/usr/local/lib -lntl -lgmp
+   -L/usr/local/lib -lntl -lgmp

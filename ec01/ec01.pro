@@ -11,4 +11,4 @@ HEADERS += \
     convhex.h
 
 LIBS += \
-    -L/usr/local/lib -lntl
+    -lntl
