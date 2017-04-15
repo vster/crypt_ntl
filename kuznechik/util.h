@@ -6,7 +6,7 @@ using namespace std;
 typedef unsigned char byte;
 typedef unsigned short u16bit;
 typedef unsigned int u32bit;
-//typedef unsigned __int64 u64bit;
+typedef unsigned long long u64bit;
 
 typedef signed int s32bit;
 
@@ -88,7 +88,7 @@ void output_bin ( T x, int len )
 	for ( int j = len-1; j >= 0; j-- )
 	{
 		cout << ((x >> j) & 1 );
-		// if ( j%8 == 0 )
-		//	cout << " ";
+        if ( j%8 == 0 )
+            cout << " ";
 	}
 }
