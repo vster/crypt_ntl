@@ -13,4 +13,4 @@ HEADERS += \
     dsa.h
 
 LIBS += \
-    -L/usr/local/lib -lntl
+    -L../../lib -lntl
