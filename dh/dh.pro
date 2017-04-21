@@ -7,4 +7,4 @@ SOURCES += \
     dh.cpp
 
 LIBS += \
-    -L/usr/local/lib -lntl -lgmp
+    -L../../lib -lntl
