@@ -9,4 +9,4 @@ INCLUDEPATH += \
     /usr/local/include
 
 LIBS += \
-    -L/usr/local/lib -lntl
+    -L../../lib -lntl
