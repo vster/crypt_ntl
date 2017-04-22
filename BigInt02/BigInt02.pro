@@ -6,7 +6,7 @@ CONFIG -= qt
 SOURCES += main.cpp
 
 INCLUDEPATH += \
-    /usr/local/include
+    ../../include
 
 LIBS += \
     -L../../lib -lntl
