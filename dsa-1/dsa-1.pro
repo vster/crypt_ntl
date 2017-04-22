@@ -12,5 +12,8 @@ HEADERS += \
     convhex.h \
     dsa.h
 
+INCLUDEPATH += \
+    ../../include
+
 LIBS += \
     -L../../lib -lntl

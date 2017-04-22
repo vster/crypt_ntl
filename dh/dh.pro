@@ -6,5 +6,8 @@ CONFIG -= qt
 SOURCES += \
     dh.cpp
 
+INCLUDEPATH += \
+    ../../include
+
 LIBS += \
     -L../../lib -lntl
