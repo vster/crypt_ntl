@@ -7,4 +7,4 @@ SOURCES += \
     dsa.cpp
 
 LIBS += \
-   -L../../lib -lntl -lgmp
+   -L../../lib -lntl
