@@ -1,13 +1,13 @@
 TEMPLATE = app
-CONFIG += console
+CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-    dsa.cpp
+    BigInt03.cpp
 
 INCLUDEPATH += \
     ../../include
 
 LIBS += \
-   -L../../lib -lntl
+    -L../../lib -lntl

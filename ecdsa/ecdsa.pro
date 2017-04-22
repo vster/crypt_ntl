@@ -15,7 +15,8 @@ HEADERS += \
     QxyNTL.h
 
 INCLUDEPATH += \
-    /usr/local/include
+    ../../include
 
 LIBS += \
-    -L/usr/local/lib -lntl
+    -L../../lib -lntl
+
