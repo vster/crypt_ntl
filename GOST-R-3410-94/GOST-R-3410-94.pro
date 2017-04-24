@@ -7,7 +7,7 @@ SOURCES += \
     GOST-R-3410-94.cpp
 
 INCLUDEPATH += \
-    /usr/local/include
+    ../../include
 
 LIBS += \
-    -L/usr/local/lib -lntl
+    -L../../lib -lntl
